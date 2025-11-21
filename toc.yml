@@ -1,0 +1,62 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+    - file: intro.md
+
+    - title: GitHub 
+    - file: Content/Github/uitleg.md
+      children:
+        - file: Content/Github/1_intro.md
+        - file: Content/Github/2_dependencies.md
+        - file: Content/Github/3_features.md
+        - title: GitHub documentation
+          children:
+            - title: Motivation for Using GitHub
+              url: https://book.the-turing-way.org/collaboration/github-novice/github-novice-motivation
+            - title: Version control
+              url: https://teachbooks.io/learn-programming/version_control/version_control
+            - title: Intro to Git
+              url: https://teachbooks.io/learn-programming/workflows/git/intro
+            - title: first steps
+              url: https://book.the-turing-way.org/collaboration/github-novice/github-novice-firststeps
+            - title: GitHub
+              url: https://teachbooks.io/learn-programming/workflows/git/github
+            - title: Commits remote
+              url: https://teachbooks.io/learn-programming/workflows/git/commits_remote
+            - title: Commits local
+              url: https://teachbooks.io/learn-programming/workflows/git/commits_local
+            - title: Cloning
+              url: https://teachbooks.io/learn-programming/workflows/git/cloning
+            - title: VSC
+              url: https://teachbooks.io/learn-programming/workflows/git/vscode
+
+
+    - title: Simulaties
+      file: Content/PySim/uitleg.md
+      children:
+        - file: Content/PySim/1_intro_sim.ipynb
+        - file: Content/PySim/2_deeltjes_model.ipynb
+        - file: Content/PySim/3_recap.ipynb
+        - file: Content/PySim/4_brownianmotion.ipynb
+        - file: Content/PySim/5_druktemp.ipynb
+        - file: Content/PySim/6_boltzmann.ipynb
+        # - file: Content/PySim/7_arbeid.ipynb
+        # - file: Content/PySim/8_thermostaat.ipynb
+        # - file: Content/PySim/9_entropie.ipynb
+
+    - title: Labs
+      file: Content/Labs/uitleg.md
+      children:
+        
+      - title: Soortelijke warmte
+        children:
+          - file: Content/Labs/cwater.ipynb
+          - file: Content/Labs/Verdamping.ipynb        
+          - file: Content/Labs/Warmtecapaciteit.ipynb
+          - file: Content/Labs/koelbuis.ipynb
+
+      # - title: Druk
+      #   children:
+      #     - file: Content/Labs/druksensorijken.ipynb
+      #     - file: Content/Labs/pV_diagram.ipynb
