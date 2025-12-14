@@ -41,7 +41,7 @@ project:
         - file: Content/PySim/4_brownianmotion.ipynb
         - file: Content/PySim/5_druktemp.ipynb
         - file: Content/PySim/6_boltzmann.ipynb
-        # - file: Content/PySim/7_arbeid.ipynb
+        - file: Content/PySim/7_arbeid.ipynb
         # - file: Content/PySim/8_thermostaat.ipynb
         # - file: Content/PySim/9_entropie.ipynb
 
@@ -56,7 +56,10 @@ project:
           - file: Content/Labs/Warmtecapaciteit.ipynb
           - file: Content/Labs/koelbuis.ipynb
 
-      # - title: Druk
-      #   children:
-      #     - file: Content/Labs/druksensorijken.ipynb
-      #     - file: Content/Labs/pV_diagram.ipynb
+      - title: Druk
+        children:
+           - file: Content/Labs/druksensorijken.ipynb
+           - file: Content/Labs/pV_diagram.ipynb
+           - file: Content/Labs/ballonproef.ipynb
+           - file: Content/Labs/cappucino.ipynb
+           - file: Content/Labs/waxine.ipynb
